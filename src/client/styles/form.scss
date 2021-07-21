@@ -1,0 +1,28 @@
+$font-form: cairo, sans-serif;
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    font-family: $font-form;
+    text-align: center;
+}
+
+input {
+    padding: 5px 20px;
+    line-height: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.stlbtn{
+  width: 30%;
+  border-radius: 20px 50px;
+  background: rgb(199, 0, 57);
+  font-weight: bold;
+  color: rgb(243, 244, 237);
+}
+.stlinpt{
+    width: 100%;
+    color: rgb(166, 214, 214);
+    font-weight: bolder;
+}

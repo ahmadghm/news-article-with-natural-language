@@ -1,0 +1,35 @@
+@import 'bootstrap/scss/bootstrap';
+$primary-color: #053742;
+$font-base: Helvetica, sans-serif;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: $primary-color;
+    font-family: $font-base;
+    background-color: #39A2DB;
+}
+
+main {
+    flex: 2;
+    font-family: cairo, sans-serif;
+}
+
+.urlcheckc{
+  color: rgb(218, 0, 55);
+  font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: cairo, sans-serif;
+}
+ .result{
+   text-align: center;
+   padding: 5px;
+   background: rgba(232, 240, 242, 0.6);
+   border: 1px solid #545454;
+   border-radius: 5px;
+ }

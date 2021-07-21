@@ -1,0 +1,17 @@
+$font-color : #E8F0F2;
+$family-foot: cairo, sans-serif;
+
+.foot{
+  padding-top: 8px;
+  align-self: auto;
+  font-family: 100% $family-foot ;
+  font-variant: normal;
+  text-decoration: underline;
+}
+footer{
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #A2DBFA;
+  color: $font-color;
+  font-weight: bolder;
+}

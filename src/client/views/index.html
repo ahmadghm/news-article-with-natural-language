@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="shortcut icon" href="#">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+              Sentiment App
+            </div>
+            <div class="">
+              <ul class="nav justify-content-end bg-light navbar-light">
+                 <li class="nav-item">
+                 <a class="nav-link active" href="./src/client/index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link" href="https://edition.cnn.com/" target="_blank">CNN</a>
+                 </li>
+              </ul>
+            </div>
+        </header>
+
+        <main>
+            <section>
+              <p class="head">Please enter the URl that want you check : </p>
+                <form class="" onsubmit="return client.handleSubmit(event)">
+                    <input class="stlinpt" id="name" type="text" name="input" value="" placeholder=" <Url HeRE >">
+                    <input class ="stlbtn" type="submit" name="" value=" &#164; submit &#164;" onclick="return client.handleSubmit(event)" onsubmit="return client.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section class="result">
+                <p>A web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites</p>
+                <strong>&#8659; <u>The Results are :</u> &#8659;</strong>
+                <div id="urlcheck" class="urlcheckc"></div>
+                <hr>
+                <div id="result1"></div>
+                <div id="result2"></div>
+                <div id="result3"></div>
+                <div id="result4"></div>
+                <div id="result5"></div>
+
+
+
+            </section>
+        </main>
+
+        <footer class="container">
+            <p class="foot">&#9829; Designed By Ahmad GH &#9829;</p>
+        </footer>
+        <script>
+         // Check that service workers are supported
+         if ('serviceWorker' in navigator) {
+             // Use the window load event to keep the page load performant
+             window.addEventListener('load', () => {
+                 navigator.serviceWorker.register('/service-worker.js');
+             });
+         }
+        </script>
+    </body>
+</html>

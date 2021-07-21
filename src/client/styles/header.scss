@@ -1,0 +1,40 @@
+/*modules*/
+$header-color: #E8F0F2;
+$font-head :  cairo,serif;
+
+/*nesting*/
+header {
+         ul {
+              margin: 0;
+              padding: 0;
+              list-style: none;
+             }
+             li { display: inline-block; }
+
+             a {
+               display: block;
+               padding: 6px 12px;
+               text-decoration: none;
+             }
+             background-color: #053742;
+             color: $header-color;
+             display: flex;
+             justify-content: space-between;
+             padding: 10px 40px;
+           }
+
+.logo{
+  font-family: cairo,serif;
+  font-weight: bolder;
+  font-style: oblique;
+  font-synthesis: weight;
+}
+
+.head{
+ font-size: 1.5rem;
+ font-family: 100% $font-head;
+ color: $header-color;
+ font-weight: bold;
+ text-align: justify;
+ text-align: center;
+}
